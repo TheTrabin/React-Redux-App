@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  font-family: 'Rye', cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: black;
+  color: white;
+}
+.info {
+  margin: 0 auto;
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  border: solid grey 2px;
+  border-radius: 23px;
+}
+.joke {
+  margin: 0 auto;
+  width: 800px;
+  border-radius: 23px;
+  background: grey;
+  color: black;
+}
+h3 {
+  text-decoration: underline;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
